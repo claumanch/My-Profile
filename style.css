@@ -1,4 +1,4 @@
-@media (max-width: 960px) {
+@media (max-width: 1500px) {
   .container {
     width: 100%;
   }
@@ -37,20 +37,13 @@
   text-align: center;
   }
   .hobbies-list li {
-  display: inline;
-  margin: 2px;
+  display: list-item;
+  list-style-type: none;
+  align-content: center;
   }
 
 }
-  .card {
-  margin: 1% 20%;
-  text-align: center;
-  }
 
-  .hobbies-list li {
-  display: inline;
-  margin: 16px;
-  }
 
 body {
   font-family: 'Montserrat', sans-serif;
