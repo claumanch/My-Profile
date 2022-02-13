@@ -118,21 +118,6 @@ footer {
 }
 
 
-
-.button {
-  background-color: #036666;
-  padding: 8px 32px;
-  margin: 8px;
-  color: white
-
-}
-
-.button:hover {
-  background-color: #c7f9cc;
-  border-color: #c7f9cc;
-  color: #2f3e46;
-}
-
 .career-list li {
   list-style-type: none;
   text-align: left;
