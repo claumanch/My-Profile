@@ -133,3 +133,17 @@ footer {
   text-align: left;
   margin: 16px 20% 8px 20%;
 }
+
+
+.bg-info {
+  background-color: #c7f9cc !important;
+}
+
+.languages-container {
+  width: 50%;
+}
+
+.align-languages-container {
+  display: flex;
+  justify-content: center;
+}

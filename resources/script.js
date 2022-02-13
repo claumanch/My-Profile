@@ -1,6 +1,7 @@
 let unfoldAbout = document.getElementById("about-me-button");
 let unfoldEducation = document.getElementById("education-button");
 let unfoldCareer = document.getElementById("career-button");
+let unfoldLanguages = document.getElementById("languages-button");
 
 
 unfoldAbout.addEventListener("click", function () {
@@ -18,6 +19,15 @@ unfoldEducation.addEventListener("click", function () {
     unfoldEducationClick();
   } else {
     cancelEducationClick();
+  }
+});
+
+unfoldLanguages.addEventListener("click", function () {
+  event.preventDefault();
+  if (document.getElementById("languages-unfold").style.display === 'none') {
+    unfoldLanguagesClick();
+  } else {
+    cancelLanguagesClick();
   }
 });
 
@@ -44,6 +54,14 @@ function unfoldEducationClick() {
 
 function cancelEducationClick() {
   document.getElementById("education-unfold").style.display = "none";
+};
+
+function unfoldLanguagesClick() {
+  document.getElementById("languages-unfold").style.display = "block";
+};
+
+function cancelLanguagesClick() {
+  document.getElementById("languages-unfold").style.display = "none";
 };
 
 function unfoldCareerClick() {
